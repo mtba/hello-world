@@ -3,11 +3,37 @@
   <head>
     <meta charset ="utf-8">
     <title>hello</title>
+    <style>
+    div{
+      background-color: #ee6;
+      display: table;
+      margin: auto;
+      padding-right: 65px;
+      position: relative;
+      border-radius: 5px
+    }
+    #now{
+      position: absolute;
+      background-color: #fa6;
+      right: 0;
+      bottom: -2px;
+      padding: 2px;
+      border-radius: 2px;
+    }
+    </style>
   </head>
   <body>
-    Hello, world!!
-    and Good Bye!!!
-    branch1へ移動
+    <div>
+      <ol>
+        <li>Hello, world!!</li>
+        <li>and Good Bye!!!</li>
+        <li>branch1へ移動</li>
+        <li>マージ完了</li>
+        <li>あいうえおかきく</li>
+        <li>けこさしすせそたち</li>
+      </ol>
+      <p id="now">←今ここ</p>
+    </div>
     <script>
       console.log("こんにちは");
       console.log("今日は暑い");
